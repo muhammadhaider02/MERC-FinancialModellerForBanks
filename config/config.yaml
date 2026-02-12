@@ -1,0 +1,28 @@
+simulation:
+  default_horizon_days: 1825  # 5 years
+  default_seed: 42
+  
+currencies:
+  base: USD
+  supported:
+    - USD
+    - EUR
+    - GBP
+    - PKR
+    
+taxation:
+  progressive_brackets:
+    - threshold: 0
+      rate: 0.0
+    - threshold: 50000
+      rate: 0.10
+    - threshold: 100000
+      rate: 0.20
+    - threshold: 200000
+      rate: 0.30
+      
+assets:
+  volatility_ranges:
+    low: [0.01, 0.05]
+    medium: [0.05, 0.15]
+    high: [0.15, 0.40]
