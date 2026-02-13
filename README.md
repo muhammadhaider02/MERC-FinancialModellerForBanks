@@ -1,4 +1,4 @@
-# Future Wallet - Financial Simulation Engine
+# MERC - Financial Simulation Engine
 
 High-fidelity financial projection and simulation engine for DATAFEST'26. Models complex user financial trajectories with daily granularity, multi-currency support, and deterministic reproducibility.
 
